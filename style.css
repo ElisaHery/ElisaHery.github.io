@@ -1,0 +1,77 @@
+* { margin: 0; }
+section { height: 100vh;  width: 100%;}
+
+/* SECTION PAGE 1 */
+.navigation ul { list-style-type: none;}
+.navigation {  position: fixed;  top: 45%;  right: 5%;}
+.navigation a {  display: block;  width: 15px;  height: 15px;
+  border:2px solid #A62212;  border-radius: 50%;  text-decoration: none;
+  text-indent: -9000px;  margin-top: 10px;}
+.navigation a.active { background-color: #A62212;}
+.navigation a:hover { background-color: #A62212;  transition: 0.5s;}
+
+#page1 {
+  background-image: url(images/fond2.png);  background-size: cover; width: 100%;}
+
+.hello { position: relative; top : 20%; text-align: center;
+font-family: 'Nunito', sans-serif; font-size: 3em;}
+
+.jesuis {  position: relative;  top : 18%;  display: flex;
+  justify-content: center; font-family: 'Nunito', sans-serif;  font-size: 3em;}
+
+.Elisa {color: #A62212;  margin-left: 3vh;}
+
+.ligne1 { display: flex; justify-content: center; margin-top: 25vh;}
+.ligne2 { display: flex;justify-content: center; margin-top: 1vh;}
+
+.description { font-family: 'Nunito', sans-serif; font-size: 1.5em;
+justify-content: center;}
+
+.description a {text-decoration: none; color: black;}
+
+.logosimplon {margin-left: 1vh;}
+.computer {margin-left: 2vh; margin-bottom: 2vh;}
+
+.decouvrir {text-align: center; font-family: 'Nunito', sans-serif; position: relative; top : 18%;}
+
+/* SECTION PAGE 2 */
+
+#page2 { display: flex; font-family: 'Nunito', sans-serif;}
+#colonne_gauche { background-color: #A62212; width: 35%; text-align: center;}
+
+
+.marin1 {width: 100%; height: 0.5vh; position: relative; top: 25%; background-color: #FFFFFF;}
+.marin2 {width: 100%; height: 0.5vh; position: relative; top: 26%; background-color: #FFFFFF;}
+
+.profil {width: 60%; position: relative; top: 10%; line-height: 1.2em; font-family: 'Nunito', sans-serif; color: white;
+margin-left: auto;margin-right: auto; line-height: 1.5em;}
+.contact {width: 60%; position: relative; top: 30%; line-height: 1.2em; font-family: 'Nunito', sans-serif; color: white;
+margin-left: auto;margin-right: auto; line-height: 1.5em;}
+
+.logogit {max-height: 5vh; width: auto;}
+.logolink {max-height: 5vh; width: auto;}
+
+
+/*.cestmoi {background-image: url(images/fond3copie.png); max-width: 100vw; height: 50vh; background-repeat: no-repeat; margin-top: 20vh; }*/
+/*.cestmoi {text-align: center; max-width: 100%;  height: auto; margin-left: auto;margin-right: auto; margin-top: 20%;}*/
+
+/* COLONNE DROITE */
+/* NUMERIQUE */
+.numerique {width: 100%; position: relative; left: 20%; top: 7%; line-height: 1.2em; font-family: 'Nunito', sans-serif;}
+.danslenumerique {display: flex;}
+.triangle { width: 0;  height: 0;  border-top: 15px solid transparent; border-bottom: 15px solid transparent;
+    border-left: 25px solid #A62212; align-items: flex-end; }
+.titrenumerique {margin-top: 0.5vh; margin-left: 1vh;}
+
+
+/* VIE DAVANT */
+.viedavant {width: 100%; position: relative; left: 20%; top: 7%; line-height: 1.2em; font-family: 'Nunito', sans-serif; margin-top: 7vh;}
+.maviedavant {display: flex;}
+.titreviedavant {margin-top: 0.5vh; margin-left: 1vh;}
+.num_forma {margin-top: 3vh}
+.vie_forma {margin-top: 3vh}
+
+/* VIE D'A COTE */
+.viedacote {width: 100%; position: relative; left: 20%; top: 7%; line-height: 1.2em; font-family: 'Nunito', sans-serif; margin-top: 7vh;}
+.ligneviedacote {display: flex;}
+.titreviedacote {margin-top: 0.5vh; margin-left: 1vh;}
