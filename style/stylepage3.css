@@ -1,0 +1,53 @@
+* {  margin: 0;
+  padding: 0;}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%; font-family: 'Nunito', sans-serif;
+}
+
+.rouge {background-color: #A62212; height: 10vh; width: 100%; display: flex;
+  align-items: center; flex-direction: row; justify-content: center;
+font-size: 1.5em;}
+
+.title {position: fixed; color: white;}
+.fleche_haut  {width: 5vh; height: auto; margin-left: 160vh; margin-right: 3vh;}
+.fleche_bas  {width: 5vh; height: auto; transform: rotate(180deg);}
+
+.CV {background-image: url("../images/fond2.jpg"); background-repeat: no-repeat; background-size: cover; height: 90vh;
+width: 100%;}
+
+.texte {margin-left: 70vh;}
+
+/*NUMERIQUE*/
+.numerique {width: 100%; font-family: 'Nunito', sans-serif;}
+.danslenumerique {display: flex;}
+.triangle { width: 0;  height: 0;  border-top: 15px solid transparent; border-bottom: 15px solid transparent;
+    border-left: 25px solid #A62212;}
+.titrenumerique {margin-top: 0vh; margin-left: 1vh; margin-bottom: 0; margin-right: 0;}
+
+
+/*VIE DAVANT*/
+.viedavant {width: 100%;
+  font-family: 'Nunito', sans-serif;}
+.maviedavant {display: flex;}
+.titreviedavant {margin-top: 0vh; margin-left: 1vh;}
+/*.num_forma {margin-top: 3vh}
+.vie_forma {margin-top: 3vh}
+
+/*VIE D'A COTE*/
+.viedacote {width: 100%; position: relative;
+font-family: 'Nunito', sans-serif; margin-left: 0vh;}
+.ligneviedacote {display: flex;}
+.titreviedacote {margin-top: 0vh; margin-left: 1vh;}
+
+#footer {display: flex; background-color: #111111; flex-direction: row; margin-bottom: 0;
+  width: 100%; height: 7%; color: #FFFFFF;
+  justify-content: center; align-items: center; font-family: 'Nunito', sans-serif; position: absolute; bottom: 0;}
+.logogit {max-height: 5vh; width: auto; margin-left: 3vh;margin-right: 3vh;}
+.logolink {max-height: 5vh; width: auto; margin-right: 3vh;}
+.fleche_haut {width: 5vh; height: auto;}
+
+.fleche_haut_div {position:absolute; bottom: 0; right: 0}

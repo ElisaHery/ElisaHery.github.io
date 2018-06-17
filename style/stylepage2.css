@@ -1,0 +1,36 @@
+* { margin: 0; }
+body { height: 100vh;  width: 100%;  margin: 0; padding: 0;
+  font-family: 'Nunito', sans-serif;}
+
+a {
+text-decoration: none; color: #A62212;
+}
+.rouge {background-color: #A62212; height: 10vh; width: 100%; display: flex;
+  align-items: center; flex-direction: row; justify-content: center;
+font-size: 1.5em;}
+
+.title {position: fixed; color: white;}
+
+.fleche_haut  {width: 5vh; height: auto; margin-left: 160vh; margin-right: 3vh;}
+.fleche_bas  {width: 5vh; height: auto; transform: rotate(180deg);}
+
+.blanc {background-image: url('../images/photocestmoi.png'); background-repeat: no-repeat; background-size: cover; height: 90vh; width: 100%;
+display: flex; align-items: center; flex-direction:column; }
+
+
+.description {width: 70vh; font-size: 1.2em; margin-top: 10vh;}
+.texte-rouge {color: #A62212;}
+
+.decouvrir {margin-top: 35vh; display: flex; align-items: center; flex-direction:column; justify-content: center;}
+
+
+.zoom a img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom a:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
